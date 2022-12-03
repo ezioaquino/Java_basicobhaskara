@@ -1,0 +1,25 @@
+public class baskara {
+    public static void main(String[] args) {
+        //alocação de váriaveis e inicialização
+        double delta = 0;
+        double x1 = 0;
+        double x2 = 0;
+        double a=4, b=-3, c=-1;
+
+        //cáculo de delta
+        delta = ((b * b) - (4*a*c));
+        System.out.println(delta);
+
+        //primeiro passo raiz de delta
+        double raizDelta = Math.sqrt(delta);
+        System.out.println(raizDelta);
+
+
+        //cálculo das raízes
+        x1 = ((-b + raizDelta)/(2*a));
+        System.out.println(x1);
+        x2 = ((-b - raizDelta)/(2*a));
+        System.out.println(x2);
+
+    }
+}
